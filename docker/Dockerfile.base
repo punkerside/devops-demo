@@ -1,0 +1,5 @@
+FROM alpine:3.18.3
+LABEL maintainer="ivan.echegaray@outlook.com"
+
+RUN apk update && apk upgrade
+WORKDIR /app
