@@ -9,3 +9,9 @@ build:
 
 release:
 	@./run.sh release
+
+deploy:
+	@./run.sh deploy
+
+destroy:
+	@./run.sh destroy

@@ -2,6 +2,6 @@ variable "name" {
   type = string
 }
 
-variable "domain" {
+variable "id_version" {
   type = string
 }
