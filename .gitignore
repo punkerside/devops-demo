@@ -1,0 +1,10 @@
+passwd
+.terraform.d/
+.terraform/
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+terraform.tfstate
+.npm/
+node_modules/
+package-lock.json
+terraform.tfstate.backup

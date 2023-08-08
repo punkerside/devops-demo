@@ -1,0 +1,5 @@
+ARG IMG
+FROM ${IMG}
+
+RUN apk add nodejs-current npm
+CMD [ "npm", "install" ]

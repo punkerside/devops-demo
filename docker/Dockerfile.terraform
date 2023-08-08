@@ -1,7 +1,7 @@
 ARG IMG
 FROM ${IMG}
 
-RUN apk add curl
+RUN apk add curl git
 
 RUN curl -sL https://releases.hashicorp.com/terraform/1.5.4/terraform_1.5.4_linux_amd64.zip -o terraform_1.5.4_linux_amd64.zip && \
  unzip terraform_1.5.4_linux_amd64.zip && \

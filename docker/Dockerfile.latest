@@ -1,0 +1,6 @@
+ARG IMG
+FROM ${IMG}
+RUN apk add nodejs
+
+COPY app/ ./
+CMD [ "node", "app.js" ]
