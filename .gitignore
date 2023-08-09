@@ -8,3 +8,5 @@ terraform.tfstate
 node_modules/
 package-lock.json
 terraform.tfstate.backup
+.config/
+.cache/
